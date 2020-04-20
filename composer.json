@@ -1,0 +1,21 @@
+{
+    "name": "lxmp/testcomposer",
+    "description": "My First Composer Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuxing",
+            "email": "lxmp@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "lxmp\\": "src/lxmp"
+      },
+      "files": [
+          "src/lxmp/helpers.php"
+      ]
+    }
+}
